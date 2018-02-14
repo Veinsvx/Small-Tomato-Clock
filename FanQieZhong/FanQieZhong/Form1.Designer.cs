@@ -38,11 +38,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.label4 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // button1
@@ -126,17 +126,6 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(248, 110);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(87, 15);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "by-VeinsVX";
-            // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Transparent;
@@ -188,18 +177,34 @@
             this.label6.TabIndex = 11;
             this.label6.Text = "min";
             // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.BackColor = System.Drawing.Color.Transparent;
+            this.checkBox2.Checked = true;
+            this.checkBox2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox2.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.checkBox2.ForeColor = System.Drawing.Color.Black;
+            this.checkBox2.Location = new System.Drawing.Point(232, 106);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(121, 24);
+            this.checkBox2.TabIndex = 12;
+            this.checkBox2.Text = "是否置顶显示";
+            this.checkBox2.UseVisualStyleBackColor = false;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.CheckBox2_CheckedChanged);
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.BackgroundImage = global::FanQieZhong.Properties.Resources._006xvkvkgy1fnibigklprj30ja0vzwid;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(343, 132);
+            this.ClientSize = new System.Drawing.Size(343, 135);
+            this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox1);
@@ -211,6 +216,9 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "番茄时钟";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
+            this.MouseEnter += new System.EventHandler(this.Form1_MouseEnter);
+            this.MouseLeave += new System.EventHandler(this.Form1_MouseLeave);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -226,11 +234,11 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.CheckBox checkBox2;
     }
 }
 

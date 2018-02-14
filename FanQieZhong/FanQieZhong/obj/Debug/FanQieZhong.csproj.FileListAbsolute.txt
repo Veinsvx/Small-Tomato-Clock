@@ -1,7 +1,6 @@
 D:\DPan\项目文档\VSProject\FanQieZhong\FanQieZhong\bin\Debug\FanQieZhong.exe.config
 D:\DPan\项目文档\VSProject\FanQieZhong\FanQieZhong\bin\Debug\FanQieZhong.exe
 D:\DPan\项目文档\VSProject\FanQieZhong\FanQieZhong\bin\Debug\FanQieZhong.pdb
-D:\DPan\项目文档\VSProject\FanQieZhong\FanQieZhong\obj\Debug\FanQieZhong.csprojResolveAssemblyReference.cache
 D:\DPan\项目文档\VSProject\FanQieZhong\FanQieZhong\obj\Debug\FanQieZhong.Form1.resources
 D:\DPan\项目文档\VSProject\FanQieZhong\FanQieZhong\obj\Debug\FanQieZhong.Properties.Resources.resources
 D:\DPan\项目文档\VSProject\FanQieZhong\FanQieZhong\obj\Debug\FanQieZhong.csproj.GenerateResource.Cache
